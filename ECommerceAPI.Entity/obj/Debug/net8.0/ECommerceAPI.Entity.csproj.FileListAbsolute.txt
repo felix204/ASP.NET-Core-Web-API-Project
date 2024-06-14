@@ -1,0 +1,5 @@
+C:\Users\workSpace\source\repos\ECommerce.API\ECommerceAPI.Entity\obj\Debug\net8.0\ECommerceAPI.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\workSpace\source\repos\ECommerce.API\ECommerceAPI.Entity\obj\Debug\net8.0\ECommerceAPI.Entity.AssemblyInfoInputs.cache
+C:\Users\workSpace\source\repos\ECommerce.API\ECommerceAPI.Entity\obj\Debug\net8.0\ECommerceAPI.Entity.AssemblyInfo.cs
+C:\Users\workSpace\source\repos\ECommerce.API\ECommerceAPI.Entity\obj\Debug\net8.0\ECommerceAPI.Entity.csproj.CoreCompileInputs.cache
+C:\Users\workSpace\source\repos\ECommerce.API\ECommerceAPI.Entity\obj\Debug\net8.0\ECommerceAPI.Entity.csproj.AssemblyReference.cache
