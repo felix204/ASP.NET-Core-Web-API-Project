@@ -10,12 +10,14 @@ using System.Threading.Tasks;
 
 namespace ECommerceAPI.DAL.Abstract.Concrete.EntityFramework.Mapping
 {
-    public class CategoryMap : BaseMap<Category>
+    public class UserMap:BaseMap<User>
     {
-        public override void Configure(EntityTypeBuilder<Category> builder)
+
+        public override void Configure(EntityTypeBuilder<User> builder)
         {
-            builder.ToTable("Category");
-            builder.Property(q => q.Name).HasMaxLength(500).IsRequired();
+            builder.ToTable("User");
+            //builder.HasMany(q=>q.Orders).WithOne(q=> q.User).HasForeignKey(q=>q.UserID).OnDelete(Microsoft.EntityFrameworkCore.DeleteBehavior.Cascade);
         }
+
     }
 }
