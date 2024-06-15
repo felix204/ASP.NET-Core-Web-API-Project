@@ -1,4 +1,4 @@
-﻿using ECommerceAPI.DAL.Abstract.Concrete.EntityFramework.Mapping.BaseMapping;
+﻿using ECommerceAPI.DAL.Concrete.EntityFramework.Mapping.BaseMapping;
 using ECommerceAPI.Entity.Poco;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECommerceAPI.DAL.Abstract.Concrete.EntityFramework.Mapping
+namespace ECommerceAPI.DAL.Concrete.EntityFramework.Mapping
 {
     public class CategoryMap : BaseMap<Category>
     {

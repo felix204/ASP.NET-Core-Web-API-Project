@@ -11,7 +11,7 @@ namespace ECommerceAPI.Entity.Poco
     {
         public Product()
         {
-            OrderDetail = new HashSet<OrderDetail>();
+            OrderDetails = new HashSet<OrderDetail>();
         }
 
         public string Name { get; set; }

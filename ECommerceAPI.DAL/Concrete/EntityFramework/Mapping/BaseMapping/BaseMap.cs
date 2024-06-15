@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECommerceAPI.DAL.Abstract.Concrete.EntityFramework.Mapping.BaseMapping
+namespace ECommerceAPI.DAL.Concrete.EntityFramework.Mapping.BaseMapping
 {
     public class BaseMap<T> : IEntityTypeConfiguration<T> where T : AuditableEntity
     {

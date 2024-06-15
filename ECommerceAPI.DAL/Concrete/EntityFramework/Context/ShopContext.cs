@@ -1,4 +1,4 @@
-﻿using ECommerceAPI.DAL.Abstract.Concrete.EntityFramework.Mapping;
+﻿using ECommerceAPI.DAL.Concrete.EntityFramework.Mapping;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECommerceAPI.DAL.Abstract.Concrete.EntityFramework.Context
+namespace ECommerceAPI.DAL.Concrete.EntityFramework.Context
 {
     public class ShopContext : DbContext
     {
@@ -15,7 +15,7 @@ namespace ECommerceAPI.DAL.Abstract.Concrete.EntityFramework.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(connectionString: "datasource=.; inital catalog=Shopping233DB; integrated security=True; TrustServerCertificate=true");
+                optionsBuilder.UseSqlServer("data source=DESKTOP-RL3DUR6\\SQLEXPRESS;initial catalog=ECommerceDb;integrated security=True; TrustServerCertificate=true");
             }
             base.OnConfiguring(optionsBuilder);
         }
