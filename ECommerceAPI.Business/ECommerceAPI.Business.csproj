@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerceAPI.DAL\ECommerceAPI.DAL.csproj" />
+    <ProjectReference Include="..\ECommerceAPI.Entity\ECommerceAPI.Entity.csproj" />
+  </ItemGroup>
+
 </Project>
