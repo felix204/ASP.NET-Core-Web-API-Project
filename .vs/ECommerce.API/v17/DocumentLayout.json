@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55EBA656-9D2E-40FF-BFD5-A5193FC99370}|ECommerceAPI.Business\\ECommerceAPI.Business.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.business\\concrate\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55EBA656-9D2E-40FF-BFD5-A5193FC99370}|ECommerceAPI.Business\\ECommerceAPI.Business.csproj|solutionrelative:ecommerceapi.business\\concrate\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D425019-13E3-4AF1-8063-84F756E96204}|EcommerceAPI.Api\\EcommerceAPI.Api.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D425019-13E3-4AF1-8063-84F756E96204}|EcommerceAPI.Api\\EcommerceAPI.Api.csproj|solutionrelative:ecommerceapi.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55EBA656-9D2E-40FF-BFD5-A5193FC99370}|ECommerceAPI.Business\\ECommerceAPI.Business.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.business\\concrate\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55EBA656-9D2E-40FF-BFD5-A5193FC99370}|ECommerceAPI.Business\\ECommerceAPI.Business.csproj|solutionrelative:ecommerceapi.business\\concrate\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EBA656-9D2E-40FF-BFD5-A5193FC99370}|ECommerceAPI.Business\\ECommerceAPI.Business.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.business\\concrate\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55EBA656-9D2E-40FF-BFD5-A5193FC99370}|ECommerceAPI.Business\\ECommerceAPI.Business.csproj|solutionrelative:ecommerceapi.business\\concrate\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EBA656-9D2E-40FF-BFD5-A5193FC99370}|ECommerceAPI.Business\\ECommerceAPI.Business.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.business\\concrate\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55EBA656-9D2E-40FF-BFD5-A5193FC99370}|ECommerceAPI.Business\\ECommerceAPI.Business.csproj|solutionrelative:ecommerceapi.business\\concrate\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EBA656-9D2E-40FF-BFD5-A5193FC99370}|ECommerceAPI.Business\\ECommerceAPI.Business.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.business\\concrate\\orderdetailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55EBA656-9D2E-40FF-BFD5-A5193FC99370}|ECommerceAPI.Business\\ECommerceAPI.Business.csproj|solutionrelative:ecommerceapi.business\\concrate\\orderdetailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,73 +22,28 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\EcommerceAPI.Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "EcommerceAPI.Api\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\EcommerceAPI.Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "EcommerceAPI.Api\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:41:29.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CategoryManager.cs",
               "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Business\\Concrate\\CategoryManager.cs",
               "RelativeDocumentMoniker": "ECommerceAPI.Business\\Concrate\\CategoryManager.cs",
               "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Business\\Concrate\\CategoryManager.cs",
               "RelativeToolTip": "ECommerceAPI.Business\\Concrate\\CategoryManager.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwC0AAAAMAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAwwC0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T06:17:49.93Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 278,
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderDetailManager.cs",
-              "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Business\\Concrate\\OrderDetailManager.cs",
-              "RelativeDocumentMoniker": "ECommerceAPI.Business\\Concrate\\OrderDetailManager.cs",
-              "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Business\\Concrate\\OrderDetailManager.cs",
-              "RelativeToolTip": "ECommerceAPI.Business\\Concrate\\OrderDetailManager.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAADEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T17:09:12.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderManager.cs",
-              "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Business\\Concrate\\OrderManager.cs",
-              "RelativeDocumentMoniker": "ECommerceAPI.Business\\Concrate\\OrderManager.cs",
-              "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Business\\Concrate\\OrderManager.cs",
-              "RelativeToolTip": "ECommerceAPI.Business\\Concrate\\OrderManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T19:13:23.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserManager.cs",
-              "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Business\\Concrate\\UserManager.cs",
-              "RelativeDocumentMoniker": "ECommerceAPI.Business\\Concrate\\UserManager.cs",
-              "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Business\\Concrate\\UserManager.cs",
-              "RelativeToolTip": "ECommerceAPI.Business\\Concrate\\UserManager.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCwAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T19:14:02.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductManager.cs",
-              "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Business\\Concrate\\ProductManager.cs",
-              "RelativeDocumentMoniker": "ECommerceAPI.Business\\Concrate\\ProductManager.cs",
-              "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Business\\Concrate\\ProductManager.cs",
-              "RelativeToolTip": "ECommerceAPI.Business\\Concrate\\ProductManager.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAADIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T19:13:50.516Z",
               "EditorCaption": ""
             }
           ]
