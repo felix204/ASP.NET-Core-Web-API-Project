@@ -1,4 +1,5 @@
 ﻿using ECommerceAPI.DAL.Concrete.EntityFramework.Mapping;
+using ECommerceAPI.Entity.Poco;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,9 @@ namespace ECommerceAPI.DAL.Concrete.EntityFramework.Context
 {
     public class ShopContext : DbContext
     {
+
+        public virtual DbSet<User> Users { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

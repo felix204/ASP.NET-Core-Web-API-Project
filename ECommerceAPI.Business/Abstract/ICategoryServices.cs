@@ -10,7 +10,7 @@ namespace ECommerceAPI.Business.Abstract
 {
     public interface ICategoryServices : IGenericServices<Category>
     {
-        Task<Category> GetAsync(Expression<Func<Category, bool>> Filter, params string[] IncludeProperties);
+        
     }
 
 

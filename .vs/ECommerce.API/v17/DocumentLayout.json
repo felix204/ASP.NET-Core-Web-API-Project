@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D425019-13E3-4AF1-8063-84F756E96204}|EcommerceAPI.Api\\EcommerceAPI.Api.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D425019-13E3-4AF1-8063-84F756E96204}|EcommerceAPI.Api\\EcommerceAPI.Api.csproj|solutionrelative:ecommerceapi.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55EBA656-9D2E-40FF-BFD5-A5193FC99370}|ECommerceAPI.Business\\ECommerceAPI.Business.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.business\\concrate\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EBA656-9D2E-40FF-BFD5-A5193FC99370}|ECommerceAPI.Business\\ECommerceAPI.Business.csproj|solutionrelative:ecommerceapi.business\\concrate\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55EBA656-9D2E-40FF-BFD5-A5193FC99370}|ECommerceAPI.Business\\ECommerceAPI.Business.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.business\\concrate\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55EBA656-9D2E-40FF-BFD5-A5193FC99370}|ECommerceAPI.Business\\ECommerceAPI.Business.csproj|solutionrelative:ecommerceapi.business\\concrate\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49162E0D-8C6A-4D17-9500-32D916C48A12}|ECommerceAPI.DAL\\ECommerceAPI.DAL.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.dal\\concrete\\entityframework\\datamanagment\\efunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49162E0D-8C6A-4D17-9500-32D916C48A12}|ECommerceAPI.DAL\\ECommerceAPI.DAL.csproj|solutionrelative:ecommerceapi.dal\\concrete\\entityframework\\datamanagment\\efunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49162E0D-8C6A-4D17-9500-32D916C48A12}|ECommerceAPI.DAL\\ECommerceAPI.DAL.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.dal\\concrete\\entityframework\\datamanagment\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49162E0D-8C6A-4D17-9500-32D916C48A12}|ECommerceAPI.DAL\\ECommerceAPI.DAL.csproj|solutionrelative:ecommerceapi.dal\\concrete\\entityframework\\datamanagment\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D425019-13E3-4AF1-8063-84F756E96204}|EcommerceAPI.Api\\EcommerceAPI.Api.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D425019-13E3-4AF1-8063-84F756E96204}|EcommerceAPI.Api\\EcommerceAPI.Api.csproj|solutionrelative:ecommerceapi.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1CA9BF-64E7-4E4D-B1F0-F4ABFB34A391}|ECommerceAPI.Entity\\ECommerceAPI.Entity.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.entity\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1CA9BF-64E7-4E4D-B1F0-F4ABFB34A391}|ECommerceAPI.Entity\\ECommerceAPI.Entity.csproj|solutionrelative:ecommerceapi.entity\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1CA9BF-64E7-4E4D-B1F0-F4ABFB34A391}|ECommerceAPI.Entity\\ECommerceAPI.Entity.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.entity\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1CA9BF-64E7-4E4D-B1F0-F4ABFB34A391}|ECommerceAPI.Entity\\ECommerceAPI.Entity.csproj|solutionrelative:ecommerceapi.entity\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1CA9BF-64E7-4E4D-B1F0-F4ABFB34A391}|ECommerceAPI.Entity\\ECommerceAPI.Entity.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.entity\\poco\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1CA9BF-64E7-4E4D-B1F0-F4ABFB34A391}|ECommerceAPI.Entity\\ECommerceAPI.Entity.csproj|solutionrelative:ecommerceapi.entity\\poco\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D425019-13E3-4AF1-8063-84F756E96204}|EcommerceAPI.Api\\EcommerceAPI.Api.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D425019-13E3-4AF1-8063-84F756E96204}|EcommerceAPI.Api\\EcommerceAPI.Api.csproj|solutionrelative:ecommerceapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49162E0D-8C6A-4D17-9500-32D916C48A12}|ECommerceAPI.DAL\\ECommerceAPI.DAL.csproj|c:\\users\\workspace\\source\\repos\\ecommerce.api\\ecommerceapi.dal\\concrete\\entityframework\\context\\shopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49162E0D-8C6A-4D17-9500-32D916C48A12}|ECommerceAPI.DAL\\ECommerceAPI.DAL.csproj|solutionrelative:ecommerceapi.dal\\concrete\\entityframework\\context\\shopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,33 +45,124 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 278,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 389,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\EcommerceAPI.Api\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "EcommerceAPI.Api\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\EcommerceAPI.Api\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "EcommerceAPI.Api\\Controllers\\WeatherForecastController.cs",
+              "DocumentIndex": 5,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Entity\\Results\\Result.cs",
+              "RelativeDocumentMoniker": "ECommerceAPI.Entity\\Results\\Result.cs",
+              "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Entity\\Results\\Result.cs",
+              "RelativeToolTip": "ECommerceAPI.Entity\\Results\\Result.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T18:26:29.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Entity\\Base\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "ECommerceAPI.Entity\\Base\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Entity\\Base\\BaseEntity.cs",
+              "RelativeToolTip": "ECommerceAPI.Entity\\Base\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T18:24:38.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Entity\\Poco\\User.cs",
+              "RelativeDocumentMoniker": "ECommerceAPI.Entity\\Poco\\User.cs",
+              "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Entity\\Poco\\User.cs",
+              "RelativeToolTip": "ECommerceAPI.Entity\\Poco\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T18:22:26.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EfRepository.cs",
+              "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.DAL\\Concrete\\EntityFramework\\DataManagment\\EfRepository.cs",
+              "RelativeDocumentMoniker": "ECommerceAPI.DAL\\Concrete\\EntityFramework\\DataManagment\\EfRepository.cs",
+              "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.DAL\\Concrete\\EntityFramework\\DataManagment\\EfRepository.cs",
+              "RelativeToolTip": "ECommerceAPI.DAL\\Concrete\\EntityFramework\\DataManagment\\EfRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T04:41:29.255Z",
+              "WhenOpened": "2024-06-20T18:21:18.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShopContext.cs",
+              "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.DAL\\Concrete\\EntityFramework\\Context\\ShopContext.cs",
+              "RelativeDocumentMoniker": "ECommerceAPI.DAL\\Concrete\\EntityFramework\\Context\\ShopContext.cs",
+              "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.DAL\\Concrete\\EntityFramework\\Context\\ShopContext.cs",
+              "RelativeToolTip": "ECommerceAPI.DAL\\Concrete\\EntityFramework\\Context\\ShopContext.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T18:15:25.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\EcommerceAPI.Api\\Program.cs",
+              "RelativeDocumentMoniker": "EcommerceAPI.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\EcommerceAPI.Api\\Program.cs",
+              "RelativeToolTip": "EcommerceAPI.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T18:15:21.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\EcommerceAPI.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EcommerceAPI.Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\EcommerceAPI.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EcommerceAPI.Api\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAArwC4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T18:14:13.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Business\\Concrate\\UserManager.cs",
+              "RelativeDocumentMoniker": "ECommerceAPI.Business\\Concrate\\UserManager.cs",
+              "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Business\\Concrate\\UserManager.cs",
+              "RelativeToolTip": "ECommerceAPI.Business\\Concrate\\UserManager.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T18:14:13.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CategoryManager.cs",
-              "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Business\\Concrate\\CategoryManager.cs",
-              "RelativeDocumentMoniker": "ECommerceAPI.Business\\Concrate\\CategoryManager.cs",
-              "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.Business\\Concrate\\CategoryManager.cs",
-              "RelativeToolTip": "ECommerceAPI.Business\\Concrate\\CategoryManager.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAwwC0AAAAMAAAA",
+              "Title": "EFUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.DAL\\Concrete\\EntityFramework\\DataManagment\\EFUnitOfWork.cs",
+              "RelativeDocumentMoniker": "ECommerceAPI.DAL\\Concrete\\EntityFramework\\DataManagment\\EFUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\workSpace\\source\\repos\\ECommerce.API\\ECommerceAPI.DAL\\Concrete\\EntityFramework\\DataManagment\\EFUnitOfWork.cs",
+              "RelativeToolTip": "ECommerceAPI.DAL\\Concrete\\EntityFramework\\DataManagment\\EFUnitOfWork.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAADwvz0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T06:17:49.93Z",
+              "WhenOpened": "2024-06-20T18:10:55.295Z",
               "EditorCaption": ""
             }
           ]

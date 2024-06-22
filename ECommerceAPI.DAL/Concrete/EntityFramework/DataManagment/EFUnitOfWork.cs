@@ -21,6 +21,11 @@ namespace ECommerceAPI.DAL.Concrete.EntityFramework.DataManagment
         public EFUnitOfWork(ShopContext shopContext)
         {
             _shopContext = shopContext;
+            ProductRepository = new EfProductRepository(_shopContext);
+            UserRepository = new EfUserRepository(_shopContext);
+            OrderDetailRepository=new EfOrderDetailRepository(_shopContext);
+            OrderRepository=new EfOrderRepository(_shopContext);
+            CategoryRepository=new EFCategoryRepository(_shopContext);
         }
 
         public IProductRepository ProductRepository { get; }
@@ -33,14 +38,12 @@ namespace ECommerceAPI.DAL.Concrete.EntityFramework.DataManagment
         {
             foreach (EntityEntry<AuditableEntity> i in _shopContext.ChangeTracker.Entries<AuditableEntity>())
             {
-                if (entity.State==Microsoft.EntityFrameworkCore.EntityState.Added)
+                if (i.State==Microsoft.EntityFrameworkCore.EntityState.Added)
                 {
                     i.Entity.AddedTime = DateTime.Now;
                     i.Entity.UpdatedTime = DateTime.Now;
                     i.Entity.AddedUser = 1;
-                    i.Entity.UpdatedUser = 1;
-                    i.Entity.AddedIPv4Adress = _httpContextAccessor.HttpContext.Connection.RemoteIpAddress.ToString();
-                    i.Entity.UpdatedIPv4Adress = _httpContextAccessor.HttpContext.Connection.RemoteIpAddress.ToString();
+                    i.Entity.UpdatedIPv4Adress = "1";
 
                     if (i.Entity.IsActive==null)
                     {
@@ -52,7 +55,6 @@ namespace ECommerceAPI.DAL.Concrete.EntityFramework.DataManagment
                 else if (i.State==Microsoft.EntityFrameworkCore.EntityState.Modified)
                 {
                     i.Entity.UpdatedTime = DateTime.Now;
-                    i.Entity.UpdatedUser = 1;
                     i.Entity.UpdatedIPv4Adress = _httpContextAccessor.HttpContext.Connection.RemoteIpAddress.ToString();
                 }
             }

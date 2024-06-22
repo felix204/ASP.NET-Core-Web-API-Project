@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace ECommerceAPI.Business.Concrate
 {
-    internal class UserManager : IUserServices
+    public class UserManager : IUserServices
     {
         private readonly IUnitOfWork _uow;
 

@@ -1,6 +1,7 @@
 ﻿using ECommerceAPI.DAL.Abstract;
 using ECommerceAPI.DAL.Abstract.DataManagment;
 using ECommerceAPI.DAL.Concrete.EntityFramework.DataManagment;
+using ECommerceAPI.Entity.Poco;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

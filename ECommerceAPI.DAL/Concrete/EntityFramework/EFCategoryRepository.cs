@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace ECommerceAPI.DAL.Concrete.EntityFramework
 {
-    public class EFCategoryRepository : EfRepository<Order>, IOrderRepository
+    public class EFCategoryRepository : EfRepository<Category>, ICategoryRepository
     {
         public EFCategoryRepository(DbContext context) : base(context)
         {

@@ -21,11 +21,10 @@ namespace ECommerceAPI.Entity.Poco
         [MaxLength(100)]
         [Required]
         public string LastName { get; set; }
-        public string UserName { get; set; }
         public string Password { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
         public string Adress { get; set; }
-        public virtual IEnumerable<Order> Orders { get; set; }
+        public virtual IEnumerable<Order>? Orders { get; set; }
     }
 }
