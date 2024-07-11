@@ -17,8 +17,5 @@ A robust and scalable API built with ASP.NET Core, designed to provide efficient
 - **Authentication**: For securing the API.
 - **Entity Framework Core**: For database interactions using Code-First approach.
 
-### Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/felix204/ASP.NET-Core-Web-API-Project.git
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.   
