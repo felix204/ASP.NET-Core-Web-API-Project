@@ -1,0 +1,12 @@
+C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Helper\bin\Debug\net8.0\ECommerceAPI.Helper.deps.json
+C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Helper\bin\Debug\net8.0\ECommerceAPI.Helper.dll
+C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Helper\bin\Debug\net8.0\ECommerceAPI.Helper.pdb
+C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Helper\obj\Debug\net8.0\ECommerceAPI.Helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Helper\obj\Debug\net8.0\ECommerceAPI.Helper.AssemblyInfoInputs.cache
+C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Helper\obj\Debug\net8.0\ECommerceAPI.Helper.AssemblyInfo.cs
+C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Helper\obj\Debug\net8.0\ECommerceAPI.Helper.csproj.CoreCompileInputs.cache
+C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Helper\obj\Debug\net8.0\ECommerceAPI.Helper.sourcelink.json
+C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Helper\obj\Debug\net8.0\ECommerceAPI.Helper.dll
+C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Helper\obj\Debug\net8.0\refint\ECommerceAPI.Helper.dll
+C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Helper\obj\Debug\net8.0\ECommerceAPI.Helper.pdb
+C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Helper\obj\Debug\net8.0\ref\ECommerceAPI.Helper.dll

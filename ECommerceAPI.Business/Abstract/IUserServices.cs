@@ -9,6 +9,5 @@ namespace ECommerceAPI.Business.Abstract
 {
     public interface IUserServices : IGenericServices<User>
     {
-        
     }
 }

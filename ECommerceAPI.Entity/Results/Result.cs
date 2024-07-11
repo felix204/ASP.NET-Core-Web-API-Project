@@ -23,6 +23,12 @@ namespace ECommerceAPI.Entity.Results
             StatusCode = _statusCode;
             ErrorInformation = errorInformation;
         }
+
+        public Result( int _statusCode, ErrorInformation errorInformation)
+        {
+            StatusCode = _statusCode;
+            ErrorInformation = errorInformation;
+        }
         public T Value { get; set; }
 
         public string Message { get; set; }
@@ -37,6 +43,21 @@ namespace ECommerceAPI.Entity.Results
         public static Result<T>SuccessWitoutData(string _message = "Success", int statusCode = (int)HttpStatusCode.OK) 
         {
             return new Result<T>( _message, statusCode, null);
+        }
+
+        public static Result<T>SuccesNoDataFound(int statusCode = (int)HttpStatusCode.NotFound)
+        {
+            return new Result<T>("Sonuç Bulunamadı", statusCode, ErrorInformation.NotFound());
+        }
+
+        public static Result<T> FieldValidationError(ErrorInformation errorInformation, int statusCode=(int)HttpStatusCode.BadRequest)
+        {
+            return new Result<T>("Hata Oluştu", statusCode, errorInformation);
+        }
+
+        public static Result<T> TokenNotFound()
+        {
+            return new Result<T>("Hata Oluştu", (int)HttpStatusCode.Unauthorized, ErrorInformation.TokenNotFoundError());
         }
     }
 }

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ECommerceAPI.DAL.Migrations
 {
     [DbContext(typeof(ShopContext))]
-    [Migration("20240615155521_n1")]
-    partial class n1
+    [Migration("20240627170942_ege")]
+    partial class ege
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,16 +34,15 @@ namespace ECommerceAPI.DAL.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("AddedIPv4Adress")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("AddedTime")
+                    b.Property<DateTime?>("AddedTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("AddedUser")
+                    b.Property<int?>("AddedUser")
                         .HasColumnType("int");
 
-                    b.Property<Guid>("Guid")
+                    b.Property<Guid?>("Guid")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<bool?>("IsActive")
@@ -58,11 +57,10 @@ namespace ECommerceAPI.DAL.Migrations
                         .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("UpdatedIPv4Adress")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UpdatedTime")
-                        .HasColumnType("int");
+                    b.Property<DateTime?>("UpdatedTime")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("ID");
 
@@ -78,16 +76,15 @@ namespace ECommerceAPI.DAL.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("AddedIPv4Adress")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("AddedTime")
+                    b.Property<DateTime?>("AddedTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("AddedUser")
+                    b.Property<int?>("AddedUser")
                         .HasColumnType("int");
 
-                    b.Property<Guid>("Guid")
+                    b.Property<Guid?>("Guid")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<bool?>("IsActive")
@@ -97,11 +94,10 @@ namespace ECommerceAPI.DAL.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("UpdatedIPv4Adress")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UpdatedTime")
-                        .HasColumnType("int");
+                    b.Property<DateTime?>("UpdatedTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("UserID")
                         .HasColumnType("int");
@@ -122,19 +118,18 @@ namespace ECommerceAPI.DAL.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("AddedIPv4Adress")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("AddedTime")
+                    b.Property<DateTime?>("AddedTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("AddedUser")
+                    b.Property<int?>("AddedUser")
                         .HasColumnType("int");
 
                     b.Property<double?>("Discount")
                         .HasColumnType("float");
 
-                    b.Property<Guid>("Guid")
+                    b.Property<Guid?>("Guid")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<bool?>("IsActive")
@@ -156,11 +151,10 @@ namespace ECommerceAPI.DAL.Migrations
                         .HasColumnType("float");
 
                     b.Property<string>("UpdatedIPv4Adress")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UpdatedTime")
-                        .HasColumnType("int");
+                    b.Property<DateTime?>("UpdatedTime")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("ID");
 
@@ -180,13 +174,12 @@ namespace ECommerceAPI.DAL.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("AddedIPv4Adress")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("AddedTime")
+                    b.Property<DateTime?>("AddedTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("AddedUser")
+                    b.Property<int?>("AddedUser")
                         .HasColumnType("int");
 
                     b.Property<int>("CategoryID")
@@ -196,7 +189,7 @@ namespace ECommerceAPI.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("Guid")
+                    b.Property<Guid?>("Guid")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<bool?>("IsActive")
@@ -211,11 +204,10 @@ namespace ECommerceAPI.DAL.Migrations
                         .HasColumnType("nvarchar(400)");
 
                     b.Property<string>("UpdatedIPv4Adress")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UpdatedTime")
-                        .HasColumnType("int");
+                    b.Property<DateTime?>("UpdatedTime")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("ID");
 
@@ -233,13 +225,12 @@ namespace ECommerceAPI.DAL.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("AddedIPv4Adress")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("AddedTime")
+                    b.Property<DateTime?>("AddedTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("AddedUser")
+                    b.Property<int?>("AddedUser")
                         .HasColumnType("int");
 
                     b.Property<string>("Adress")
@@ -255,7 +246,7 @@ namespace ECommerceAPI.DAL.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<Guid>("Guid")
+                    b.Property<Guid?>("Guid")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<bool?>("IsActive")
@@ -278,15 +269,10 @@ namespace ECommerceAPI.DAL.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UpdatedIPv4Adress")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UpdatedTime")
-                        .HasColumnType("int");
-
-                    b.Property<string>("UserName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime?>("UpdatedTime")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("ID");
 

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ECommerceAPI.DAL.Migrations
 {
     /// <inheritdoc />
-    public partial class n1 : Migration
+    public partial class ege : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,14 +18,14 @@ namespace ECommerceAPI.DAL.Migrations
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
-                    Guid = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Guid = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     IsActive = table.Column<bool>(type: "bit", nullable: true),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: true),
-                    AddedTime = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    AddedUser = table.Column<int>(type: "int", nullable: false),
-                    UpdatedTime = table.Column<int>(type: "int", nullable: false),
-                    AddedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UpdatedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    AddedTime = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    AddedUser = table.Column<int>(type: "int", nullable: true),
+                    UpdatedTime = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    AddedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    UpdatedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -40,19 +40,18 @@ namespace ECommerceAPI.DAL.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     FirstName = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     LastName = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    UserName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Phone = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Adress = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Guid = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Guid = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     IsActive = table.Column<bool>(type: "bit", nullable: true),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: true),
-                    AddedTime = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    AddedUser = table.Column<int>(type: "int", nullable: false),
-                    UpdatedTime = table.Column<int>(type: "int", nullable: false),
-                    AddedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UpdatedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    AddedTime = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    AddedUser = table.Column<int>(type: "int", nullable: true),
+                    UpdatedTime = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    AddedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    UpdatedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -68,14 +67,14 @@ namespace ECommerceAPI.DAL.Migrations
                     Name = table.Column<string>(type: "nvarchar(400)", maxLength: 400, nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CategoryID = table.Column<int>(type: "int", nullable: false),
-                    Guid = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Guid = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     IsActive = table.Column<bool>(type: "bit", nullable: true),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: true),
-                    AddedTime = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    AddedUser = table.Column<int>(type: "int", nullable: false),
-                    UpdatedTime = table.Column<int>(type: "int", nullable: false),
-                    AddedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UpdatedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    AddedTime = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    AddedUser = table.Column<int>(type: "int", nullable: true),
+                    UpdatedTime = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    AddedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    UpdatedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -95,14 +94,14 @@ namespace ECommerceAPI.DAL.Migrations
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     UserID = table.Column<int>(type: "int", nullable: false),
-                    Guid = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Guid = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     IsActive = table.Column<bool>(type: "bit", nullable: true),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: true),
-                    AddedTime = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    AddedUser = table.Column<int>(type: "int", nullable: false),
-                    UpdatedTime = table.Column<int>(type: "int", nullable: false),
-                    AddedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UpdatedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    AddedTime = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    AddedUser = table.Column<int>(type: "int", nullable: true),
+                    UpdatedTime = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    AddedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    UpdatedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -126,14 +125,14 @@ namespace ECommerceAPI.DAL.Migrations
                     UnitPrice = table.Column<double>(type: "float", nullable: false),
                     Quantity = table.Column<double>(type: "float", nullable: false),
                     Discount = table.Column<double>(type: "float", nullable: true),
-                    Guid = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Guid = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     IsActive = table.Column<bool>(type: "bit", nullable: true),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: true),
-                    AddedTime = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    AddedUser = table.Column<int>(type: "int", nullable: false),
-                    UpdatedTime = table.Column<int>(type: "int", nullable: false),
-                    AddedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UpdatedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    AddedTime = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    AddedUser = table.Column<int>(type: "int", nullable: true),
+                    UpdatedTime = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    AddedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    UpdatedIPv4Adress = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {

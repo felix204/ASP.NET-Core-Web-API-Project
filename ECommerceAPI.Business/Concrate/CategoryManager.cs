@@ -1,4 +1,5 @@
 ﻿using ECommerceAPI.Business.Abstract;
+using ECommerceAPI.DAL.Abstract;
 using ECommerceAPI.DAL.Abstract.DataManagment;
 using ECommerceAPI.Entity.Poco;
 using System;
@@ -12,6 +13,7 @@ namespace ECommerceAPI.Business.Concrate
     public class CategoryManager: ICategoryServices
     {
         private readonly IUnitOfWork _uow;
+        
 
         public CategoryManager(IUnitOfWork uow)
         {

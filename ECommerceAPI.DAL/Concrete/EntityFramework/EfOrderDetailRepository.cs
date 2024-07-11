@@ -1,4 +1,5 @@
 ﻿using ECommerceAPI.DAL.Abstract;
+using ECommerceAPI.DAL.Concrete.EntityFramework.Context;
 using ECommerceAPI.DAL.Concrete.EntityFramework.DataManagment;
 using ECommerceAPI.Entity.Poco;
 using Microsoft.EntityFrameworkCore;
@@ -12,7 +13,7 @@ namespace ECommerceAPI.DAL.Concrete.EntityFramework
 {
     public class EfOrderDetailRepository : EfRepository<OrderDetail>, IOrderDetailRepository
     {
-        public EfOrderDetailRepository(DbContext context) : base(context)
+        public EfOrderDetailRepository(ShopContext context) : base(context)
         {
         }
     }

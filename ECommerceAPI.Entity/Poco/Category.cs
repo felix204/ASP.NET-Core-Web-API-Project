@@ -13,7 +13,7 @@ namespace ECommerceAPI.Entity.Poco
         {
             Products = new HashSet<Product>();
         }
-        
+
         public string Name { get; set; }
 
         public virtual IEnumerable<Product> Products { get; set; }

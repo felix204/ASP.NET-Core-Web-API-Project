@@ -1,4 +1,5 @@
 ﻿using ECommerceAPI.DAL.Abstract.DataManagment;
+using ECommerceAPI.DAL.Concrete.EntityFramework.Context;
 using ECommerceAPI.Entity.Base;
 using ECommerceAPI.Entity.Poco;
 using Microsoft.EntityFrameworkCore;
@@ -14,10 +15,10 @@ namespace ECommerceAPI.DAL.Concrete.EntityFramework.DataManagment
 {
     public class EfRepository<T> : IRepostory<T> where T : AuditableEntity
     {
-        private readonly DbContext _context;
+        private readonly ShopContext _context;
         private readonly DbSet<T> _dbSet;
 
-        public EfRepository(DbContext context)
+        public EfRepository(ShopContext context)
         {
             _context = context;
             _dbSet = _context.Set<T>();
