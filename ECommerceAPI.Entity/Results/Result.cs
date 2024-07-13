@@ -35,6 +35,11 @@ namespace ECommerceAPI.Entity.Results
         public int StatusCode { get; set; }
         public ErrorInformation ErrorInformation { get; set; }
 
+        public static Result<T> Errors( string _message = "Hata Oluştu", int statusCode = (int)HttpStatusCode.InternalServerError)
+        {
+            return new Result<T>( _message, statusCode, ErrorInformation.Errors());
+        }
+
         public static Result<T> SuccessWithData(T _value, string _message = "Success", int statusCode = (int)HttpStatusCode.OK)
         {
             return new Result<T>(_value, _message, statusCode, null);
@@ -58,6 +63,11 @@ namespace ECommerceAPI.Entity.Results
         public static Result<T> TokenNotFound()
         {
             return new Result<T>("Hata Oluştu", (int)HttpStatusCode.Unauthorized, ErrorInformation.TokenNotFoundError());
+        }
+
+        public static Result<T> TokenValidationError()
+        {
+            return new Result<T>("Hata Oluştu", (int)HttpStatusCode.Unauthorized, ErrorInformation.TokenValidationError());
         }
     }
 }

@@ -16,12 +16,22 @@ namespace ECommerceAPI.Entity.Results
             return new ErrorInformation() { ErrorDescription = errorInformation, Error = error };
         }
 
+        public static ErrorInformation Errors(object? error = null, string errorDescription = "Hata Oluştu.")
+        {
+            return new ErrorInformation() { ErrorDescription = errorDescription, Error = null };
+        }
+
         public static ErrorInformation FieldValidationError(object? error= null, string errorDescription = "Zorunlu Alanlar Eksik")
         {
             return new ErrorInformation { Error = error, ErrorDescription = errorDescription };
         }
 
-        public static ErrorInformation TokenNotFound(object? error = null, string errorDescription = "Token Bilgisi Bulunamadı")
+        public static ErrorInformation TokenNotFoundError(object? error = null, string errorDescription = "Token Bilgisi Bulunamadı")
+        {
+            return new ErrorInformation { Error = error, ErrorDescription = errorDescription };
+        }
+
+        public static ErrorInformation TokenValidationError(object? error = null, string errorDescription = "Token Geçerli Değil")
         {
             return new ErrorInformation { Error = error, ErrorDescription = errorDescription };
         }

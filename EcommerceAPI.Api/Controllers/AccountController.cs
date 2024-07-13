@@ -7,6 +7,8 @@ using System.Text;
 using System.Security.Claims;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
+using ECommerceAPI.Api.Aspects;
+using ECommerceAPI.Api.Validation.FluentValidation;
 
 
 namespace EcommerceAPI.Api.Controllers
@@ -24,9 +26,10 @@ namespace EcommerceAPI.Api.Controllers
             _configuration = configuration;
         }
         [HttpPost("/login")]
+        [ValidationFilter(typeof(LoginValidation))]
         public async Task<IActionResult> LoginAsync(LoginRequestDTO loginRequestDTO)
         {
-            var user = await _userServices.GetAsync(x => x.FirstName == loginRequestDTO.UserName && x.Password == loginRequestDTO.Password);
+            var user = await _userServices.GetAsync(x => x.Email == loginRequestDTO.UserName && x.Password == loginRequestDTO.Password);
 
             if (user == null)
             {

@@ -3,6 +3,7 @@ using ECommerceAPI.Entity.Results;
 using ECommerceAPI.Helper.CustomExceptions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
+using Microsoft.IdentityModel.Tokens;
 using System.Net;
 using System.Threading.Tasks;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -43,6 +44,27 @@ namespace EcommerceAPI.Api.Middleware
                     httpContext.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
                     httpContext.Response.ContentType = "application/json";
                     await httpContext.Response.WriteAsJsonAsync(Result<TokenNotFoundException>.TokenNotFound());
+                }
+
+                else if (e.GetType() == typeof(TokenNotFoundException))
+                {
+                    httpContext.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
+                    httpContext.Response.ContentType = "application/json";
+                    await httpContext.Response.WriteAsJsonAsync(Result<TokenNotFoundException>.TokenNotFound());
+                }
+
+                else if (e.GetType() == typeof(SecurityTokenSignatureKeyNotFoundException))
+                {
+                    httpContext.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
+                    httpContext.Response.ContentType = "application/json";
+                    await httpContext.Response.WriteAsJsonAsync(Result<TokenNotFoundException>.TokenValidationError());
+                }
+
+                else
+                {
+                    httpContext.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+                    httpContext.Response.ContentType = "application/json";
+                    await httpContext.Response.WriteAsJsonAsync(Result<Exception>.Errors());
                 }
             }
 

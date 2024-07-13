@@ -44,6 +44,7 @@ namespace ECommerceAPI.DAL.Concrete.EntityFramework.DataManagment
                     i.Entity.UpdatedTime = DateTime.Now;
                     i.Entity.AddedUser = 1;
                     i.Entity.UpdatedIPv4Adress = "1";
+                    i.Entity.Guid = Guid.NewGuid();
 
                     if (i.Entity.IsActive==null)
                     {

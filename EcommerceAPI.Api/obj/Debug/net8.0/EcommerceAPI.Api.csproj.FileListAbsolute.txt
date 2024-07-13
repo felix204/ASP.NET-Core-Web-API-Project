@@ -250,7 +250,6 @@ C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Api\obj\Debug\net8.0\
 C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EcommerceAPI.Api.props
 C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Api\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Api\obj\Debug\net8.0\scopedcss\bundle\EcommerceAPI.Api.styles.css
-C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Api\obj\Debug\net8.0\Ecommerc.14DFEC08.Up2Date
 C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Api\obj\Debug\net8.0\EcommerceAPI.Api.dll
 C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Api\obj\Debug\net8.0\refint\EcommerceAPI.Api.dll
 C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Api\obj\Debug\net8.0\EcommerceAPI.Api.pdb
@@ -262,3 +261,5 @@ C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Api\bin\Debug\net8.0\
 C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Api\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Api\bin\Debug\net8.0\ECommerceAPI.Helper.dll
 C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Api\bin\Debug\net8.0\ECommerceAPI.Helper.pdb
+C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\workSpace\source\repos\ECommerce.API\EcommerceAPI.Api\obj\Debug\net8.0\ECommerc.BFC122A4.Up2Date

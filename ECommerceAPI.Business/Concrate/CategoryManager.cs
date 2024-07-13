@@ -22,9 +22,9 @@ namespace ECommerceAPI.Business.Concrate
 
         public async Task<Category> AddAsync(Category Entity)
         {
-            await _uow.CategoryRepository.AddAsync(Entity);
+            var addedCategory = await _uow.CategoryRepository.AddAsync(Entity);
             await _uow.SaveChangeAsync();
-            return Entity;
+            return addedCategory.Entity;
         }
 
         public async Task DeleteAsync(Category Entity)

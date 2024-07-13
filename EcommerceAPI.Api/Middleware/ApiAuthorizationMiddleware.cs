@@ -54,11 +54,11 @@ namespace ECommerceAPI.Api.Middleware
                         httpContext.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
                     }
 
-                    string? firstName = JwtToken.Claims.Where(q => q.Type == "UserName").Select(q => q.Value).SingleOrDefault();
+                    string? firstName = JwtToken.Claims.Where(q => q.Type == "FirstName").Select(q => q.Value).SingleOrDefault();
 
-                    int ID = Convert.ToInt32(JwtToken.Claims.Where(q => q.Type == "ID").Select(q => q.Value).SingleOrDefault());
+                    int? ID = Convert.ToInt32(JwtToken.Claims.Where(q => q.Type == "ID").Select(q => q.Value).SingleOrDefault());
 
-                    if (string.IsNullOrEmpty(UserName) || ID == null)
+                    if (string.IsNullOrEmpty(firstName) || ID == null)
                     {
                         httpContext.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
                         return;
